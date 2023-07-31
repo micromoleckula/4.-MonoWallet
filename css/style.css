@@ -4,6 +4,14 @@ html {
     background: black;
 }
 
+h1, h2, h3, h4, h5, p {
+    color: white;
+}
+
+body {
+    font-family: Montserrat;
+}
+
 .wrapper {
     width: 1300px;
     margin: 0 auto;
@@ -19,13 +27,99 @@ html {
     padding-top: 50px;
 }
 
-.header__cube {
-    background: #1BAAFB;
+.header__strip {
+    display: flex;
 }
 
-.header_telegram-link{
-    background-size: cover;
-    width: 50px;
-    height: 50px;
+.header__telegram-link {
+    background: #1BAAFB;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-right: 50px;
+    transition: all .3s;
 }
+
+.header__telegram-link:hover{
+    box-shadow: 0px 0px 25px 0px #1BAAFB;
+}
+
 /* header end */
+
+/* first start  */
+
+.first__block {
+    display: flex;
+
+}
+.first__img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 133px;
+}
+
+.first__text-top {
+    padding-top: 186px;
+    padding-right: 350px;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.first__text-bottom {
+    padding-right: 226px;
+    color: #555353;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first__buttons {
+    padding-top: 100px;
+}
+
+.first__download {
+    border-radius: 5px;
+    background: #041DFF;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    margin-right: 50px;
+    transition: all .3s;
+}
+
+.first__buy {
+    border-radius: 5px;
+    background: #1AD391;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    margin-right: 50px;
+    transition: all .3s;
+}
+
+.first__airdrop {
+    color: white;
+    border-radius: 5px;
+    background: #FF007A;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.first__download:hover{
+    box-shadow: 0px 0px 25px 0px #041DFF;
+}
+
+.first__buy:hover{
+    box-shadow: 0px 0px 25px 0px #1AD391;
+}
+
+.first__airdrop:hover{
+    box-shadow: 0px 0px 25px 0px #FF007A;
+}
+/* first end */
