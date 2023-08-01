@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 .wrapper {
@@ -20,10 +20,11 @@ body {
 
 /* header start */
 
+.header__logo {
+    margin-right: 15px;
+}
+
 .header {
-    display: flex;
-    flex-wrap: wrap;
-    background: black;
     padding-top: 50px;
 }
 
@@ -80,6 +81,7 @@ body {
 
 .first__buttons {
     padding-top: 100px;
+    padding-bottom: 237px;
 }
 
 .first__download {
@@ -123,3 +125,11 @@ body {
     box-shadow: 0px 0px 25px 0px #FF007A;
 }
 /* first end */
+
+/* prew start */
+
+.prew__img {
+    padding-bottom: 221px;
+}
+
+/* prew end */
