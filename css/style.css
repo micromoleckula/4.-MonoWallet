@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 html {
     background: black;
@@ -133,3 +133,62 @@ body {
 }
 
 /* prew end */
+
+/* what start */
+
+.what__text {
+    padding-bottom: 180px;
+}   
+
+.what__text-1 {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.square {
+    width: 1228px;
+    height: 1228px;
+    transform: rotate(41deg);
+    flex-shrink: 0;
+    border-radius: 85px;
+    border: 6px solid rgba(26, 211, 145, 0.50);
+    margin-left: -400px;
+}
+
+.what__cards {
+    display: grid;
+    grid-template-columns: repeat(3fr,3%);
+
+}
+
+.what__card {
+    width: 633px;
+    height: 455px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #FFF;
+}
+.card__svg {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.card__p {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.35px;
+    padding-left: 50px;
+}
+/* what end */
