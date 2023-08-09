@@ -36,12 +36,24 @@ body {
     background: #1BAAFB;
     padding:  10px 10px 10px 10px;
     border-radius: 5px;
-    margin-right: 50px;
+    margin-left: 900px;
+    transition: all .3s;
+}
+
+.header__telegram-link-2 {
+    background: #FB1B86;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
     transition: all .3s;
 }
 
 .header__telegram-link:hover{
     box-shadow: 0px 0px 25px 0px #1BAAFB;
+}
+
+.header__telegram-link-2:hover{
+    box-shadow: 0px 0px 25px 0px #FB1B86;
 }
 
 /* header end */
@@ -137,13 +149,13 @@ body {
 /* what start */
 
 .what__text {
-    padding-bottom: 180px;
+    padding-bottom: 120px;
 }   
 
 .what__text-1 {
     color: #FFF;
     font-family: 'Montserrat';
-    font-size: 50px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -158,37 +170,110 @@ body {
     border-radius: 85px;
     border: 6px solid rgba(26, 211, 145, 0.50);
     margin-left: -400px;
+    z-index: 1;
 }
 
 .what__cards {
     display: grid;
-    grid-template-columns: repeat(3fr,3%);
-
+    grid-template-columns: repeat(6, 2fr);
+    grid-column-gap: 57px;
+    grid-row-gap: 57px;
+    padding-bottom: 120px;
 }
 
 .what__card {
-    width: 633px;
-    height: 455px;
+    width: 370px;
+    height: 240px;
     flex-shrink: 0;
     border-radius: 32px;
     background: #FFF;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2 ;
+    margin: auto;
 }
 .card__svg {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     flex-shrink: 0;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
 }
 
 .card__p {
     color: #000;
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 25px;
     letter-spacing: 0.35px;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 /* what end */
+
+/* our team start*/
+
+.our__text {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 25px;
+    padding-bottom: 150px;
+}
+
+.team__window {
+    width: 390px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2 ;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.img__window {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.team__p-1 {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 142.857% */
+    letter-spacing: 0.35px;
+    padding-left: 20px;
+}
+
+.team__p-2 {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 142.857% */
+    letter-spacing: 0.35px;
+    width: 300px;
+    padding-left: 20px;
+}
+/* our team end */
