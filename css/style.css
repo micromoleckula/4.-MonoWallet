@@ -260,7 +260,7 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 15px; /* 142.857% */
+    line-height: 15px;
     letter-spacing: 0.35px;
     padding-left: 20px;
 }
@@ -271,7 +271,7 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25px; /* 142.857% */
+    line-height: 25px;
     letter-spacing: 0.35px;
     width: 300px;
     padding-left: 20px;
